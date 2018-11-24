@@ -29,7 +29,7 @@ public class Entrenador extends PersonaEquipo {
 
     @Override
     public void entrenamiento() {
-        System.out.printf(" %s Dirige un entrenamiento (Clase Entrenador) %d\n",getNombre(), getIdFederacion());
+        System.out.printf(" %s %s Dirige un entrenamiento (Clase Entrenador). Su identificación es: %d\n",getNombre(),getApellidos(), getIdFederacion());
     }
 
     
